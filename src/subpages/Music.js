@@ -1,25 +1,28 @@
-import pic02 from "../images/pic02.jpg";
+import nanokarrin from "../images/branding_nk_logo-podluzne-biale.png";
 import React from "react";
 
 const Music = () => <>
     <h2 className="major">Music and dubbing</h2>
-    <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
     <p>
-        Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-        at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-        urna nisi, fringila lorem et vehicula lacinia quam. Integer
-        sollicitudin mauris nec lorem luctus ultrices.
+        My life is filled with smaller and bigger projects, some are IT-related, some are not.
+        The former are usually connected with music, dubbing or both.
     </p>
+
+    <h3>Hanasaku Iroha: Home Sweet Home</h3>
     <p>
-        Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-        libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-        Pellentesque condimentum sem. In efficitur ligula tate urna.
-        Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-        Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-        libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-        tempus.
+        I was a producer and sound engineer for official Polish dubbing of 'Hanasaku Iroha: Home Sweet Home' movie,
+        distributed by Animagia.pl.
+    </p>
+
+    <h3>NanoKarrin</h3>
+    <span className="image main">
+        <img src={nanokarrin} alt="" />
+    </span>
+    <p>
+        NanoKarrin is the biggest Polish fandubbing group that connects amateurs, professionals and everyone in between.
+        My main responsibilities within the group are sound engineering, recruitment and coordination of events like workshops,
+        concerts, festivals and so on. Beside publishing various work on YouTube channel, we travel around Poland showing people that
+        dubbing can be treated as a recreational activity and has a value beyond pure utility.
     </p>
 </>;
 

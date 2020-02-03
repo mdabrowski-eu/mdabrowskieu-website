@@ -1,29 +1,21 @@
-import pic01 from "../images/pic01.jpg";
+import epoint from "../images/logo_epoint_white.png";
 import React from "react";
 
 const Work = () => <><h2 className="major">Work</h2>
     <span className="image main">
-    <img src={pic01} alt="" />
+    <img src={epoint} alt="" />
     </span>
+    <h3>E-point S.A. (2017 - today)</h3>
     <p>
-        Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-        aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-        convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-        magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-        By the way, check out my work.
+        Software house specializing in solutions for financial and e-commerce sectors. I work there as a java developer,
+        making mainly backend in various technologies and bits of frontend.
     </p>
+    <h3>Minima (2019 - today)</h3>
     <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-    dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-    torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-    libero eu nibh porttitor fermentum. Nullam venenatis erat id
-    vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-        Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-    dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-    lectus. Pellentesque habitant morbi tristique senectus et netus et
-    malesuada fames ac turpis egestas. In non lorem sit amet elit
-    placerat maximus. Pellentesque aliquam maximus risus, vel sed
-    vehicula.
-    </p></>;
+        Startup creating intelligent tools for fast and cost-effective development of complicated machine learning systems.
+        My tasks consist of creating everything that needs to be programmed and is not intelligent: REST API for cloud tools,
+        dashboard for customers, main page, all sprinkled with a little bit of DevOps.
+    </p>
+</>;
 
 export default Work;
